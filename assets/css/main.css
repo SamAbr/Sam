@@ -7,30 +7,31 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
-pre, a, abbr, acronym, address, big, cite,
-code, del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var, b,
-u, i, center, dl, dt, dd, ol, ul, li, fieldset,
-form, label, legend, table, caption, tbody,
-tfoot, thead, tr, th, td, article, aside,
-canvas, details, embed, figure, figcaption,
-footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video {
+html, body, div, h1, h2, h3, h4, h5, h6, blockquote,
+ a, img, sub, ul, li, article, aside,figure, footer, header, nav, section 
+{
 	margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;}
+ 
+	p{
+		font-size: 14;
+		font-family: 'Times New Roman';
+		text-align: justify;
+		text-indent: 1em;
+
+	}
+
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 body {
-	line-height: 1;
+	line-height: 0.5;
 }
 
 ol, ul {
@@ -151,7 +152,7 @@ input, select, textarea {
 		font-family: "Merriweather", Georgia, serif;
 		font-weight: 300;
 		font-size: 1rem;
-		line-height: 2.375;
+		line-height: 1.5;
 	}
 
 	a {
@@ -171,9 +172,9 @@ input, select, textarea {
 		font-weight: 600;
 	}
 
-	em, i {
+	/* em, i {
 		font-style: italic;
-	}
+	} */
 
 	p {
 		text-align: justify;
@@ -253,9 +254,10 @@ input, select, textarea {
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
-		font-size: 0.9rem;
+		font-family: 'Times New Roman', Times, serif, monospace;
+		font-size: 25px;
 		margin: 0 0 2rem 0;
+		text-align: justify;
 	}
 
 		pre code {
